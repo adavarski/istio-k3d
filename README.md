@@ -57,15 +57,19 @@ tracing   <none>   tracing.192.168.1.99.nip.io   172.28.0.2   80      11m
 ### Screenshots:
 
 Kali:
+
 <img src="screenshots/k3d-istio-kiali.png?raw=true" width="1000">
 
 Prometheus:
+
 <img src="screenshots/k3d-istio-prometheus.png?raw=true" width="1000">
 
 Grafana:
+
 <img src="screenshots/k3d-istio-grafana.png?raw=true" width="1000">
 
 Jaeger (Tracing):
+
 <img src="screenshots/k3d-istio-jaeger.png?raw=true" width="1000">
 
 
