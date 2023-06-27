@@ -8,8 +8,8 @@ git clone -o github https://github.com/adavarski/istio-k3d.git
 ./istio-k3d-POC/10-deploy.sh
 ```
 
-```
-Check
+Check: 
+
 ```
 $ kubectl get po
 NAME                            READY   STATUS    RESTARTS   AGE
