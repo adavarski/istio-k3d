@@ -1,4 +1,4 @@
-# istio-k3d POC
+# istio-k3d (POC)
 
 This POC performs a istio installation in a k3d cluster.
 
