@@ -48,10 +48,10 @@ tracing   <none>   tracing.192.168.1.99.nip.io   172.28.0.2   80      11m
 
 Browser:
 
-Kiali: http://kiali.192.168.1.99.nip.io:8080
-Prometheus: http://prom.192.168.1.99.nip.io:8080
-Grafana: http://grafana.192.168.1.99.nip.io:8080
-Jaeger: http://tracing.192.168.1.99.nip.io:8080
+- Kiali: http://kiali.192.168.1.99.nip.io:8080
+- Prometheus: http://prom.192.168.1.99.nip.io:8080
+- Grafana: http://grafana.192.168.1.99.nip.io:8080
+- Jaeger: http://tracing.192.168.1.99.nip.io:8080
 
 
 Screenshots:
