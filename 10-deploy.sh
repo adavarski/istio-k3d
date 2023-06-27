@@ -17,8 +17,7 @@ fi
 sleep 60
 if [[ ! -d ./istio-${ISTIO_VERSION}/ ]]; then
 #  curl -L https://istio.io/downloadIstio | TARGET_ARCH=x86_64 sh -
-curl -L https://istio.io/downloadIstio | ${ISTIO_VERSION} TARGET_ARCH=x86_64 sh -
-fi
+curl -L https://istio.io/downloadIstio | ISTIO_VERSION=${ISTIO_VERSION} TARGET_ARCH=x86_64 sh -fi
 
 istioctl install \
   --set profile=default \
