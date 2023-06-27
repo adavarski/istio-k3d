@@ -60,7 +60,7 @@ Screenshots:
 
 <img src="screenshots/k3d-istio-prometheus.png?raw=true" width="1000">
 
-<img src="screenshots/k3d-istio-grafana.pngg?raw=true" width="1000">
+<img src="screenshots/k3d-istio-grafana.png?raw=true" width="1000">
 
 <img src="screenshots/k3d-istio-jaeger.png?raw=true" width="1000">
 
