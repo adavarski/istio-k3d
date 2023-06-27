@@ -98,8 +98,9 @@ kubectl get destinationrules  #-- there should be no destination rules
 kubectl get gateway           #-- there should be no gateway
 kubectl get pods              #-- the Bookinfo pods should be deleted
 ```
-### google-samples-microservices
-https://github.com/GoogleCloudPlatform/microservices-demo
+### google-samples-microservices -> https://github.com/GoogleCloudPlatform/microservices-demo
+
+```
 
 $ kubectl create ns google-samples-microservices
 
