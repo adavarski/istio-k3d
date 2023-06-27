@@ -72,7 +72,7 @@ Jaeger (Tracing):
 <img src="screenshots/k3d-istio-jaeger.png?raw=true" width="1000">
 
 
-#### bookinfo
+### bookinfo 
 ```
 kubectl exec "$(kubectl get pod -l app=ratings -o jsonpath='{.items[0].metadata.name}')" -c ratings -- curl -s productpage:9080/productpage | grep -o "<title>.*</title>"
 kubectl apply -f istio-1.18.0/samples/bookinfo/networking/bookinfo-gateway.yaml
