@@ -71,5 +71,3 @@ Jaeger (Tracing):
 
 
 
-<img src="screenshots/k3d-istio-jaeger.png?raw=true" width="1000">
-
