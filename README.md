@@ -1,14 +1,14 @@
-# istio-k3d (POC)
+## istio-k3d (POC)
 
 This POC performs a istio installation in a k3d cluster.
 
-# Usage
+### Usage
 ```
 git clone -o github https://github.com/adavarski/istio-k3d.git
 ./istio-k3d-POC/10-deploy.sh
 ```
 
-Check: 
+### Check: 
 
 ```
 $ kubectl get po
@@ -46,7 +46,7 @@ prom      <none>   prom.192.168.1.99.nip.io      172.28.0.2   80      25m
 tracing   <none>   tracing.192.168.1.99.nip.io   172.28.0.2   80      11m
 ```
 
-Browser:
+### Browser:
 
 - Kiali: http://kiali.192.168.1.99.nip.io:8080
 - Prometheus: http://prom.192.168.1.99.nip.io:8080
@@ -54,7 +54,7 @@ Browser:
 - Jaeger: http://tracing.192.168.1.99.nip.io:8080
 
 
-Screenshots:
+### Screenshots:
 
 Kali:
 <img src="screenshots/k3d-istio-kiali.png?raw=true" width="1000">
