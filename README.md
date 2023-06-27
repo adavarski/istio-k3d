@@ -290,5 +290,6 @@ spec:
         app: productcatalogservice
         version: v2
       name: v2
+
 kubectl apply -n istio-app -f destinationrule.yaml
 ```
