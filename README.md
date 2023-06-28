@@ -10,11 +10,18 @@ This POC performs a istio installation in a k3d cluster.
 ### Check: 
 
 ```
-$ kubectl get po
-NAME                            READY   STATUS    RESTARTS   AGE
-echoserver-v1-77d4665d6-5562w   2/2     Running   0          9m
-echoserver-v1-77d4665d6-9lxc7   2/2     Running   0          9m
-echoserver-v1-77d4665d6-4tpgz   2/2     Running   0          9m
+$ kubectl get po 
+NAME                             READY   STATUS    RESTARTS   AGE
+echoserver-v1-77d4665d6-2hcxm    2/2     Running   0          12h
+echoserver-v1-77d4665d6-lz6ww    2/2     Running   0          12h
+echoserver-v1-77d4665d6-zvg8k    2/2     Running   0          12h
+details-v1-5ffd6b64f7-6z2xg      2/2     Running   0          12h
+ratings-v1-5f9699cfdf-sr2jd      2/2     Running   0          12h
+reviews-v1-569db879f5-wsrmt      2/2     Running   0          12h
+reviews-v3-c9c4fb987-kf7j4       2/2     Running   0          12h
+reviews-v2-65c4dc6fdc-nv466      2/2     Running   0          12h
+productpage-v1-8b588bf6d-6dblg   2/2     Running   0          12h
+
 
 $ kubectl get po -n istio-system
 NAME                                  READY   STATUS    RESTARTS   AGE
