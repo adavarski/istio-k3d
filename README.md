@@ -117,6 +117,8 @@ Ref:https://github.com/GoogleCloudPlatform/microservices-demo
 
 $ kubectl create ns google-samples-microservices
 
+$ kubectl label ns google-samples-microservices istio-injection=enabled
+
 $ kubectl apply -n google-samples-microservices -f google-samples-microservices/kubernetes-manifests.yaml
 
 $ kubectl get pod -n google-samples-microservices
