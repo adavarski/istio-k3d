@@ -113,6 +113,9 @@ kubectl get pods              #-- the Bookinfo pods should be deleted
 
 Ref:https://github.com/GoogleCloudPlatform/microservices-demo
 
+<img src="screenshots/k3d-istio-google-microservices.png?raw=true" width="1000">
+
+
 ```
 
 $ kubectl create ns google-samples-microservices
