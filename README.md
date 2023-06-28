@@ -55,9 +55,13 @@ tracing   <none>   tracing.192.168.1.99.nip.io   172.28.0.2   80      11m
 
 ### Screenshots:
 
-Kali:
+Kiali:
 
+istio-system: 
 <img src="screenshots/k3d-istio-kiali.png?raw=true" width="1000">
+
+Bookinfo: 
+<img src="screenshots/k3d-istio-bookinfo.png?raw=true" width="1000">
 
 Prometheus:
 
