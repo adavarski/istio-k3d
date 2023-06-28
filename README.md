@@ -67,9 +67,6 @@ Kiali:
 istio-system: 
 <img src="screenshots/k3d-istio-kiali.png?raw=true" width="1000">
 
-Bookinfo: 
-<img src="screenshots/k3d-istio-bookinfo.png?raw=true" width="1000">
-
 Prometheus:
 
 <img src="screenshots/k3d-istio-prometheus.png?raw=true" width="1000">
@@ -84,6 +81,9 @@ Jaeger (Tracing):
 
 
 ### Bookinfo 
+
+<img src="screenshots/k3d-istio-bookinfo.png?raw=true" width="1000">
+
 ```
 kubectl exec "$(kubectl get pod -l app=ratings -o jsonpath='{.items[0].metadata.name}')" -c ratings -- curl -s productpage:9080/productpage | grep -o "<title>.*</title>"
 kubectl apply -f istio-1.18.0/samples/bookinfo/networking/bookinfo-gateway.yaml
