@@ -5,6 +5,8 @@ This POC performs a istio installation in a k3d cluster.
 ### Usage
 ```
 ./10-deploy.sh
+./50-
+...
 ```
 
 ### Check: 
