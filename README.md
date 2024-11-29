@@ -159,6 +159,7 @@ Jaeger (Tracing):
 <img src="screenshots/k3d-istio-bookinfo.png?raw=true" width="1000">
 
 ```
+kubectl label namespace default  istio-injection=enabled
 kubectl apply -f istio-1.18.0/samples/bookinfo/platform/kube/
 kubectl exec "$(kubectl get pod -l app=ratings -o jsonpath='{.items[0].metadata.name}')" -c ratings -- curl -s productpage:9080/productpage | grep -o "<title>.*</title>"
 kubectl apply -f istio-1.18.0/samples/bookinfo/networking/bookinfo-gateway.yaml
@@ -173,9 +174,13 @@ echo "$GATEWAY_URL"
 
 echo "http://$GATEWAY_URL/productpage"
 
+
 kubectl apply -f istio-1.18.0/samples/bookinfo/networking/destination-rule-all.yaml
 kubectl get destinationrules -o yaml
 
+for i in {1..300}; do curl http://$GATEWAY_URL/productpage;done
+
+Note: View traffic default ns @kiali
 
 cleanup: bookinfo
 istio-1.18.0/samples/bookinfo/platform/kube/cleanup.sh
